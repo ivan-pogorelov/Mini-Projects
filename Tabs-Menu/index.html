@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Alohaa</h1>
+    <main class="container">
+      <ul class="menu" id="menu">
+        <li class="menu-item active" data-tab="main">Main</li>
+        <li class="menu-item" data-tab="news">News</li>
+        <li class="menu-item" data-tab="store">Store</li>
+        <li class="menu-item" data-tab="profile">Profile</li>
+      </ul>
+
+      <div class="content">
+        <div class="tab active" id="main">Main content</div>
+        <div class="tab" id="news">News content</div>
+        <div class="tab" id="store">Store content</div>
+        <div class="tab" id="profile">Profile content</div>
+      </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
