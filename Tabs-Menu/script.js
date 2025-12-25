@@ -7,5 +7,10 @@ menuItems.forEach((item) => {
     tabs.forEach((tab) => tab.classList.remove("active"));
 
     item.classList.add("active");
+
+    const tabId = item.dataset.tab;
+    const activeTab = document.getElementById(tabId);
+
+    activeTab.classList.add("active");
   });
 });

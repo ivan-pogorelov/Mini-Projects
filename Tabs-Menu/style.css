@@ -62,7 +62,19 @@
   transition: background-color 0.25s ease, color 0.25s ease;
 }
 
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
 .menu-item.active {
-  background-color: #4f46e5;
+  background-color: #f446e5;
   color: #ffffff;
+}
+
+.disabled {
+  display: none;
 }
